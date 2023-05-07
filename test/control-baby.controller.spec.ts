@@ -1,6 +1,6 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ControlBabyController } from './control-baby.controller';
-import { ControlBabyService } from './control-baby.service';
+import { ControlBabyController } from '../src/modules/control-baby/control-baby.controller';
+import { ControlBabyService } from '../src/modules/control-baby/control-baby.service';
 
 describe('ControlBabyController', () => {
   let controller: ControlBabyController;
